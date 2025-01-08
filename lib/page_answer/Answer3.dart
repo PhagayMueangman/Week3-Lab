@@ -69,6 +69,73 @@ class Answer3 extends StatelessWidget {
                         '฿275',
                       ),
                     ),
+                    SizedBox(height: 16),
+
+                    // เพิ่มสินค้า 10 ชิ้น
+                    _buildProductRow(
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/a2e8254d32a62639b8c13691f246bc87@resize_w450_nl.webp',
+                        'ไฟท้าย Mslaz (เเปลงใส่ MT15 ได้ ) มีไฟเลี้ยว ในตัวเเถมรีเลย์ปรับระดับฟรี',
+                        '฿749',
+                      ),
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/d583e98e01059fd1911d2e3dcfc04a70@resize_w450_nl.webp',
+                        'กันรอยถัง+ฝาถัง +ข้างถัง สำหรับ MT15 งานเรซิ่น อย่างดี',
+                        '฿247',
+                      ),
+                    ),
+                    SizedBox(height: 16),
+                    _buildProductRow(
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/23357e5e09a110d961252af12f7c3c98@resize_w450_nl.webp',
+                        'ชิวแต่ง MT15 + น็อตสี / อุปกรแต่งรถจักรยานยนต์',
+                        '฿410',
+                      ),
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/b6b8f898dcf3b37f384d2d56e250f2ee@resize_w450_nl.webp',
+                        'King กันรอยถัง ฝาถัง MT15 อุปกรณ์แต่งมอเตอร์ไซด์',
+                        '฿266',
+                      ),
+                    ),
+                    SizedBox(height: 16),
+                    _buildProductRow(
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/df53375eab2114024a95ce7dda3fc44d@resize_w450_nl.webp',
+                        'งานมีเนียม การ์ดหม้อน้ำ MT15 เเดง',
+                        '฿162',
+                      ),
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/5c591a12b874338fa2f0080bb28685f4@resize_w450_nl.webp',
+                        'ชิวหน้ารถมอเตอร์ไซค์ สีโม้ค ชิวหน้ารถมอเตอร์ไซค์ MT15 ทรง WOLF เเถม น๊อตสี',
+                        '฿404',
+                      ),
+                    ),
+                    SizedBox(height: 16),
+                    _buildProductRow(
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/f8500e5b5a4d48c00d286822adc82a33@resize_w450_nl.webp',
+                        'Set 2 อย่าง Mslaz/MT15/NewR15 กระจกปลายแฮนด์ + มือเบรค',
+                        '฿506',
+                      ),
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/8f099de79a74c46e83289a8905765ab7@resize_w450_nl.webp',
+                        'เกียโยง new R15/ MT15 สีทอง',
+                        '฿1,299',
+                      ),
+                    ),
+                    SizedBox(height: 16),
+                    _buildProductRow(
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/992fd6650a8369859123854e6b79c2ae@resize_w450_nl.webp',
+                        'การ์ด เลส เเท้ MT15 งาน Lycan ตรงรุ่น คุณภาพสูง',
+                        '฿228',
+                      ),
+                      _buildProductCard(
+                        'https://down-th.img.susercontent.com/file/be7f66dbab07be5b37b9a470c01ecb79@resize_w450_nl.webp',
+                        'บังสเตอร์ Mslaz / MT15/ new R15 ลดพิเศษ ราคาสุดปัง',
+                        '฿330',
+                      ),
+                    ),
                   ],
                 ),
               ),

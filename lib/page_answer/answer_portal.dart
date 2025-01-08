@@ -59,7 +59,8 @@ class FirstScreen extends StatelessWidget {
                 ),
                 SizedBox(height: 10),
                 Text(
-                  'เด็กเบี้ยว 007',
+                  'ผกาย เมืองแมน'
+                  '640710542',
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
@@ -139,6 +140,19 @@ class FirstScreen extends StatelessWidget {
                     child: Text('Go to Answer 4'),
                   ),
                 ),
+                SizedBox(height: 8.0), // เพิ่มช่องว่างก่อนข้อความ
+
+                // ข้อความใต้ปุ่ม 4
+                Center(
+                  child: Text(
+                    'ทุกๆหน้าสามารถกดเล่นได้ทุกปุ่ม',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
@@ -147,3 +161,4 @@ class FirstScreen extends StatelessWidget {
     );
   }
 }
+
